@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Evaluare Nr 2</title>
+    <title>Galerie Foto</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -27,20 +27,20 @@
         
         .gallery img {
             width: 100%;
-            height: auto;  
-            object-fit: contain;  
-            border-radius: 0;  
-            box-shadow: none;   
+            height: auto; /* Așigură-te că imaginea este redimensionată corect */
+            object-fit: contain; /* Folosește 'contain' pentru a păstra proporțiile imaginii */
+            border-radius: 0; /* Elimină eventualele colțuri rotunjite */
+            box-shadow: none; /* Elimină orice umbră */
             transition: transform 0.3s;
         }
         
         .gallery img:hover {
-            transform: scale(1);  
+            transform: scale(1); /* Elimină zoom-ul la hover, dacă vrei să păstrezi imaginea la dimensiunea inițială */
         }
     </style>
 </head>
 <body>
-    <h1>Evaluare Nr 2</h1>
+    <h1>Galerie Foto</h1>
     <div class="gallery">
         <!-- Imagini din PC-ul tău -->
         <img src="imagine1.png" alt="Imagine 1">
